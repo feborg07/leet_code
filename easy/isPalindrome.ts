@@ -2,9 +2,9 @@
 
 function isPalindrome(x: number): boolean {
     
-  // Create a 2-pointer loop and return true if pointer 1 is greater or equal pointer 2
-  // return false if the array elements of the pointers are different
-  // Complexity O(n)
+  // Create a 2-pointer loop and return true if pointer 1 is greater pointer 2
+  // return false if the array elements on the pointers are different
+  // Complexity O(n/2)
 
   // Transform number to string
   const xStr = x.toString();
