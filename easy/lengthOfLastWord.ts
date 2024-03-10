@@ -6,6 +6,7 @@ function lengthOfLastWord (s: string): number
 
     while (i >= 0)
     {
+        if (s[i] !== " ") count++;
 
         if (count > 0 && s[i] === " ") break;
 
