@@ -54,7 +54,6 @@ function mySqrt (x: number): number
         for (let i = 0; i < 10; i++)
         {
             let addAndBoxConcat = parseInt("" + addition + i) * i;
-            console.log(addAndBoxConcat)
 
             if (addAndBoxConcat > concat)
             {
